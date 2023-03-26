@@ -25,7 +25,6 @@ As a full-stack developer, my goal is to create usable and attractive software, 
 <br />
 
 ---
-<br/>
 
 ### 📈 My Github Statistics
 
