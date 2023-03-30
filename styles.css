@@ -61,6 +61,11 @@ nav a {
   padding: 0 1.5rem;
   background-color: #00000000;
 }
+.nav-list :hover{
+  background-color: #ffffffb1;
+  color: #000;
+  font-size: larger;
+}
 
 .hook {
 
