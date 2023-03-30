@@ -2,12 +2,42 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Poppins",sans-serif;
+  font-weight: 500;
+  background-color: #082032;
 }
 
+.wrapper{
+  box-sizing: content-box;
+  height: 70px;
+  padding: 5px 3px;
+  display: flex;
+}
+span::before{
+  content: '';
+  color: #FF4C29;
+  animation: animate 8s infinite;
+}
+@keyframes animate {
+  0%{
+    content: 'MULAMULELI';
+  }  
+  20%{
+    content: 'ANDROID DEVELOPER';
+  }
+  40%{
+    content: 'WEB DEVELOPER';
+  }
+  60%{
+    content: 'DESIGNER';  }  
+  80%{
+    content: 'VIDEO EDITOR';  } 
+  100%{
+    content: 'MAMMBA';  }
+}
 nav {
   height: 80px;
-  background: #002B5B;
+  background: #334756;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,29 +45,32 @@ nav {
 }
 
 .logo {
-  color: #57C5B6;
+  color: #FF4C29;
   font-size: 1.5rem;
   font-weight: bold;
   font-style: italic;
   padding: 0 2rem;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #00000000;
 }
-
+.nav-list {
+  background-color: #00000000;
+}
 nav a {
   text-decoration: none;
   color: #fff;
   padding: 0 1.5rem;
+  background-color: #00000000;
 }
 
 .hook {
-  background: #002B5B;
+
 }
 
 .hook-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 95vh;
-  padding: 3rem calc((100vw - 1300px)/2);
+  padding: 3rem calc((100vw - 1000px)/2);
 }
 
 .column-left {
@@ -52,28 +85,29 @@ nav a {
 .column-left h1 {
   margin-bottom: 1rem;
   font-size: 3rem;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0,5);
 }
 
 .column-left p {
   margin-bottom: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.5;
+  font-weight: 200;
 }
 
 button {
   padding: 1rem 3rem;
   font-size: 1rem;
   border: none;
-  color: #fff;
-  background: #57C5B6;
+  color: #FF4C29;
+  background: #000;
   cursor: pointer;
   border-radius: 50px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 button:hover {
-  background-color: #fff;
-  color: #57C5B6;
+  background-color: #FF4C29;
+  color: #000;
 }
 
 .column-right {
@@ -91,5 +125,9 @@ button:hover {
 @media screen and (max-width: 768px){
   .hook-container{
     grid-template-columns: 1fr;
+  }
+  .column-left h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
   }
 }
