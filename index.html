@@ -5,43 +5,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css" 
-    
-    <!-- Google font-->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title>Mulamuleli Mammba</title>
+     <!-- Css ref -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Google fonts import -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <!-- Main nav bar -->
     <nav>
-        <div class="logo" >Mulamu Mammba</div>
+        <div class="logo">Mulamu Mammba</div>
         <div class="nav-list">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="#hook">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
         </div>
     </nav>
 
-    <section class="hook">
+    <!-- First section hooking the visitor -->
+    <section id="hook" class="hook">
         <div class="hook-container">
             <div class="column-left">
                 <h1>It's Mulamuleli</h1>
                 <div class="wrapper">
-                    <h2>I'm a <span></span></h2>
+                    <h2>I'm the <span class="me"></span></h2>
                 </div>
-                <p>Are you prepared to meet a potential new software developer who will 
-                    <b>undoubtedly</b> become a valuable asset to your company? 
-                    Look no further, as I possess exceptional skills in both <b>Mobile</b> and <b>Web development</b>,
+                <p>Are you prepared to meet a potential new software developer who will
+                    <b>undoubtedly</b> become a valuable asset to your company?
+                    Look no further, as I possess exceptional skills primarily in <b
+                        style="font-weight: bold; color: #FF4C29;">Mobile</b>
+                    and <b style="font-weight: bold; color: #FF4C29;">Web development</b>,
                     with expertise in both front-end and back-end technologies.
                 </p>
-                <button>Let's Get Started</button>
+                <button>Download CV</button>
             </div>
             <div class="column-right">
-                <img src="image-1.svg" 
-                alt="illustration"
-                class="hook-image"/>
+                <img src="image-1.svg" alt="illustration" class="hook-image" />
             </div>
         </div>
+    </section>
+
+    <!-- Second section projects -->
+    <section id="projects" class="projects">
+        <h1>My Projects</h1>
+            <div class="project-container">
+                <a class="project-a">
+                    <img src="image-1.svg" alt="portfolio"
+                        class="project-img">
+                    <div class="project-div">
+                        <h3 class="project-h3">Portfolio Website</h3>
+                        <p
+                            class="project-p ">
+                            <span
+                                class="project-span">HTML</span>
+                            <span
+                                class="project-span">CSS</span>
+                            <span
+                                class="project-span">JavaScript</span>
+                        </p>
+                    </div>
+                </a>
+                <a class="project-a">
+                    <img src="image-1.svg" alt="portfolio"
+                        class="project-img">
+                    <div class="project-div">
+                        <h3 class="project-h3">Study Timetable Maker
+                        </h3>
+                        <p
+                            class="project-p ">
+                            <span
+                                class="project-span">C#</span>
+                            <span
+                                class="project-span">.Net</span>
+                            <span
+                                class="project-span">Sql</span>
+                        </p>
+                    </div>
+                </a>
+                <a class="project-a">
+                    <img src="image-1.svg" alt="portfolio" class="project-img">
+                    <div class="project-div">
+                        <h3 class="project-h3">Android Collecton Manager</h3>
+                        <p
+                            class="project-p ">
+                            <span
+                                class="project-span">Firebase</span>
+                            <span
+                                class="project-span">Kotlin</span>
+                            <span
+                                class="project-span">Sql lite</span>
+                        </p>
+                    </div>
+                </a>
+            </div>
     </section>
 </body>
 </html>
