@@ -45,7 +45,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0rem calc((100vw - 1300px)/2);
-  
+
 }
 
 .logo {
@@ -96,7 +96,8 @@ nav a {
   padding: 0rem 2rem;
 }
 
-.column-left h1, .projects h1 {
+.column-left h1,
+.projects h1 {
   margin-bottom: 1rem;
   font-size: 3rem;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0, 5);
@@ -120,7 +121,7 @@ button {
   background: #000;
   cursor: pointer;
   border-radius: 50px;
-  
+
 }
 
 button:hover {
@@ -183,11 +184,13 @@ button:hover {
   }
 
 }
-.project-div{
-  padding: 1rem; 
-width: 100%; 
+
+.project-div {
+  padding: 1rem;
+  width: 100%;
 
 }
+
 .project-h3 {
   margin-bottom: 0.5rem;
   font-size: 1.125rem;
@@ -195,7 +198,7 @@ width: 100%;
   font-weight: 600;
   color: #fff;
 
-  }
+}
 
 .project-span {
   padding-top: 0.25rem;
@@ -210,35 +213,45 @@ width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-  nav{
+  nav {
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 10px;
   }
+
   .hook-container {
     grid-template-columns: 1fr;
   }
 
   .column-left h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
     font-size: 2rem;
   }
+
   .column-right {
     visibility: hidden;
   }
-  .project-container{
+
+  .project-container {
     grid-template-columns: auto;
   }
-  nav a{
+
+  nav a {
     align-content: end;
     padding: 1px;
     background-color: #3b576c;
     border-radius: 15px;
   }
-  .logo{
+
+  .logo {
     padding: 5px;
   }
-  .project-img{
-      height: 12rem;
-    }
+
+  .project-img {
+    height: 12rem;
+  }
+
+  .projects h1 {
+    visibility: hidden;
+  }
 }
