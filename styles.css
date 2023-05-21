@@ -16,7 +16,7 @@
 
 .me::before {
   content: 'WRITER';
-  color: #FF4C29;
+  color: #009FB7;
   animation: animate 10s infinite;
 }
 
@@ -49,7 +49,7 @@ nav {
 }
 
 .logo {
-  color: #FF4C29;
+  color: #009FB7;
   font-size: 1.5rem;
   font-weight: bold;
   font-style: italic;
@@ -117,7 +117,7 @@ button {
   padding: 1rem 3rem;
   font-size: 1rem;
   border: none;
-  color: #FF4C29;
+  color: #009FB7;
   background: #000;
   cursor: pointer;
   border-radius: 50px;
@@ -125,7 +125,7 @@ button {
 }
 
 button:hover {
-  background-color: #FF4C29;
+  background-color: #009FB7;
   color: #000;
 }
 
