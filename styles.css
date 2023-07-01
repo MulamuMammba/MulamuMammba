@@ -236,13 +236,13 @@ button:hover {
     grid-template-columns: auto;
   }
 
-  nav a {
+ /* nav a {
     align-content: end;
     padding: 1px;
     background-color: #3b576c;
     border-radius: 15px;
   }
-
+*/
   .logo {
     padding: 5px;
   }
