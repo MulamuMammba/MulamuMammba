@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mulamuleli Mammba</title>
      <!-- Css ref -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/NeoBrutalismCSS.css">
 
     <!-- Google fonts import -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
@@ -19,10 +20,10 @@
     <nav>
         <div class="logo">Mulamu Mammba</div>
         <div class="nav-list">
-            <a href="#hook">Home</a>
-            <a href="#projects">Projects</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+            <button class="nb-button blue" href="#hook">Home</button>
+            <button class="nb-button blue" href="#projects">Projects</button>
+            <button class="nb-button blue" href="#about">About</button>
+            <button class="nb-button blue"href="#contact">Contact</button>
         </div>
     </nav>
 
@@ -41,89 +42,92 @@
                     and <b style="font-weight: bold; color: #009FB7;">Web development</b>,
                     with expertise in both front-end and back-end technologies.
                 </p>
-                <a href="Mulamuleli Mammba CV.pdf" download="Mulamuleli Mammba CV">
-                <button  href="Mulamuleli Mammba CV.pdf">Download CV</button>
+                <a href="documents/Mulamuleli Mammba IT CV.pdf" download="Mulamuleli Mammba CV">
+                <button class="nb-button blue"  href="documents/Mulamuleli Mammba IT CV.pdf">Download MY CV</button>
                 </a>
             </div>
             <div class="column-right">
-                <img src="hero.svg" alt="illustration" class="hook-image" />
+                <img src="images/hero.svg" alt="illustration" class="hook-image" />
             </div>
         </div>
     </section>
 
     <!-- Second section projects -->
     <section id="projects" class="projects">
-        <h1>My Projects</h1>
+        
+            <h1><Strong>My Projects</Strong></h1>
+        
             <div class="project-container">
-                <a class="project-a" href="https://github.com/MulamuMammba/MulamuMammba">
-                    <img src="website.svg" alt="portfolio"
+                <div class="card" href="https://github.com/MulamuMammba/MulamuMammba">
+                    <div class="card-thumbnail">
+                        <img src="images/website.svg" alt="portfolio"
                         class="project-img">
-                    <div class="project-div">
-                        <h3 class="project-h3">Portfolio Website</h3>
-                        <p
-                            class="project-p ">
-                            <span
-                                class="project-span">HTML</span>
-                            <span
-                                class="project-span">CSS</span>
-                            <span
-                                class="project-span">JavaScript</span>
-                        </p>
                     </div>
-                </a>
-                <a class="project-a" href="https://github.com/MulamuMammba/Budget-Calculator">
-                    <img src="timetable.svg" alt="portfolio"
+                    
+                    <div class="card-content">
+                        <h2 class="project-h2"><strong>Portfolio Website</strong></h2>
+                        <!-- <a class="description">
+                            My own personal website to display some of my projects. 
+                            <br>
+                            I wanted to show the kind of design I love and that can fit the goal of a personal website. 
+                            Hence I decided to use plain HTML5 and NeoBrutalismCSS(a lightweight css library with a Neo Brutalism look). <br>
+        
+                        </a>
+                    -->
+                        <button class="nb-button default rounded">HTML</button>
+                        <button class="nb-button default rounded">NeoBrutalismCSS</button>
+                        <button class="nb-button default rounded">JS</button>
+                    </div>
+                </div>
+                
+                <div class="card" href="https://github.com/MulamuMammba/Budget-Calculator">
+                    <div class="card-thumbnail">
+                        <img src="images/timetable.svg" alt="portfolio"
                         class="project-img">
-                    <div class="project-div">
-                        <h3 class="project-h3">Budget Calculator
-                        </h3>
-                        <p
-                            class="project-p ">
-                            <span
-                                class="project-span">C#</span>
-                            <span
-                                class="project-span">Razor ASP.NET</span>
-                            <span
-                                class="project-span">SQL</span>
-                        </p>
                     </div>
-                </a>
-                <a class="project-a" href="https://github.com/MulamuMammba/ArchiveCol">
-                    <img src="collection-app.svg" alt="portfolio" class="project-img">
-                    <div class="project-div">
-                        <h3 class="project-h3">Android Collecton Manager</h3>
-                        <p
-                            class="project-p ">
-                            <span
-                                class="project-span">Firebase</span>
-                            <span
-                                class="project-span">Kotlin</span>
-                            <span
-                                class="project-span">SQLite</span>
+                    
+                    <div class="card-content">
+                        <h2 class="project-h2"><strong>Budget Calculator</strong></h2>
+                        <p>
+
                         </p>
+                        <button class="nb-button default rounded">C#</button>
+                        <button class="nb-button default rounded">Razor ASP.Net</button>
+                        <button class="nb-button default rounded">SQL</button>
                     </div>
-                </a>
+                </div>
+                
+                <div class="card" href="https://github.com/MulamuMammba/ArchiveCol">
+                    <div class="card-thumbnail">
+                        <img src="images/collection-app.svg" alt="portfolio" class="project-img">
+                    </div>
+                    <div class="card-content">
+                        <h2 class="project-h2"><strong>Android Collecton Manager</strong></h2>
+                        <p>
+                            
+                        </p>
+                        <button class="nb-button default rounded">Kotlin</button>
+                        <button class="nb-button default rounded">Firebase</button>
+                        <button class="nb-button default rounded">SQLite</button>
+                    </div>
+                </div>
+
+                <div class="card" href="https://github.com/MulamuMammba/Dreamy-Do">
+                    <div class="card-thumbnail">
+                        <img src="images/website.svg" alt="portfolio" class="project-img">
+                    </div>
+                    <div class="card-content">
+                        <h2 class="project-h2"><strong>Modern Note taking app</strong></h2>
+                        <p>
+                            
+                        </p>
+                        <button class="nb-button default rounded">Kotlin</button>
+                        <button class="nb-button default rounded">Material Design 3</button>
+                        <button class="nb-button default rounded">SQLite</button>
+                    </div>
+                </div>
             </div>
     </section>
-    <section id="projects" class="projects">
-            <div class="project-container">
-                <a class="project-a" href="https://github.com/MulamuMammba/Dreamy-Do">
-                    <img src="website.svg" alt="portfolio"
-                        class="project-img">
-                    <div class="project-div">
-                        <h3 class="project-h3">Modern Note taking app</h3>
-                        <p
-                            class="project-p ">
-                            <span
-                                class="project-span">Kotlin</span>
-                            <span
-                                class="project-span">Sqlite</span>
-                            <span
-                                class="project-span">Material Design 3</span>
-                        </p>
-                    </div>
-                </a>
-            </div>
-    </section>
+    
 </body>
 </html>

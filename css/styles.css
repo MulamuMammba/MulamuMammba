@@ -4,7 +4,7 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  background-color: #082032;
+  background-color: #526a7b;
 }
 
 .wrapper {
@@ -113,21 +113,6 @@ nav a {
   font-weight: 200;
 }
 
-button {
-  padding: 1rem 3rem;
-  font-size: 1rem;
-  border: none;
-  color: #009FB7;
-  background: #000;
-  cursor: pointer;
-  border-radius: 50px;
-
-}
-
-button:hover {
-  background-color: #009FB7;
-  color: #000;
-}
 
 .column-right {
   display: flex;
@@ -191,7 +176,15 @@ button:hover {
 
 }
 
-.project-h3 {
+.project-h2 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  color: #fff;
+
+}
+.description{
   margin-bottom: 0.5rem;
   font-size: 1.125rem;
   line-height: 1.75rem;
