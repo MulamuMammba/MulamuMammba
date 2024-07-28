@@ -12,30 +12,29 @@
   /* height: 70px; */
   padding: 5px 3px;
   display: flex;
-
 }
 
 .me::before {
-  content: 'WRITER';
-  color: #009FB7;
+  content: "WRITER";
+  color: #009fb7;
   animation: animate 5s infinite;
 }
 
 @keyframes animate {
   20% {
-    content: 'TECH GUY';
+    content: "TECH GUY";
   }
 
   40% {
-    content: 'EDITOR';
+    content: "EDITOR";
   }
 
   60% {
-    content: 'DESIGNER';
+    content: "DESIGNER";
   }
 
   80% {
-    content: 'DEVELOPER';
+    content: "DEVELOPER";
   }
 }
 
@@ -45,12 +44,11 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0rem calc((100vw - 1300px)/2);
-
+  padding: 0rem calc((100vw - 1300px) / 2);
 }
 
 .logo {
-  color: #009FB7;
+  color: #009fb7;
   font-size: 1.5rem;
   font-weight: bold;
   font-style: italic;
@@ -81,7 +79,7 @@ nav a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* height: 70vh; */
-  padding: 3rem calc((100vw - 1000px)/2);
+  padding: 3rem calc((100vw - 1000px) / 2);
 
   @media (max-width: 770px) {
     grid-template-columns: 1fr 0fr;
@@ -115,11 +113,10 @@ nav a {
 
   @media (max-width: 768px) {
     font-size: 0.8rem;
-  line-height: 1;
-  /* font-weight: 20; */
+    line-height: 1;
+    /* font-weight: 20; */
   }
 }
-
 
 .column-right {
   display: flex;
@@ -133,8 +130,6 @@ nav a {
   height: 100%;
   pointer-events: none;
 }
-
-
 
 .project-container {
   display: grid;
@@ -150,7 +145,6 @@ nav a {
   padding: 20px 0;
   border-color: #fff;
   overflow: hidden;
-
 }
 
 .project-img {
@@ -171,19 +165,11 @@ nav a {
   justify-content: flex-start;
   align-items: center;
   gap: 0.5rem;
-
-
-  /* @media (max-width: 768px) {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  } */
-
 }
 
 .project-div {
   padding: 1rem;
   width: 100%;
-
 }
 
 .project-h2 {
@@ -192,15 +178,13 @@ nav a {
   line-height: 1.75rem;
   font-weight: 600;
   color: #fff;
-
 }
-.description{
+.description {
   margin-bottom: 0.5rem;
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 600;
   color: #fff;
-
 }
 
 .project-span {
@@ -222,7 +206,6 @@ nav a {
     column-gap: 10px;
   }
 
-
   .column-left h1 {
     margin-bottom: 0;
     font-size: 2rem;
@@ -230,7 +213,6 @@ nav a {
 
   .column-right {
     visibility: hidden;
-
   }
 
   .project-container {
