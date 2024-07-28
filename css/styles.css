@@ -9,24 +9,25 @@
 
 .wrapper {
   box-sizing: content-box;
-  height: 70px;
+  /* height: 70px; */
   padding: 5px 3px;
   display: flex;
+
 }
 
 .me::before {
   content: 'WRITER';
   color: #009FB7;
-  animation: animate 10s infinite;
+  animation: animate 5s infinite;
 }
 
 @keyframes animate {
-  10% {
-    content: 'ANDROID DEVELOPER';
+  20% {
+    content: 'TECH GUY';
   }
 
   40% {
-    content: 'VIDEO EDITOR';
+    content: 'EDITOR';
   }
 
   60% {
@@ -34,7 +35,7 @@
   }
 
   80% {
-    content: 'WEB DEVELOPER';
+    content: 'DEVELOPER';
   }
 }
 
@@ -79,11 +80,11 @@ nav a {
 .hook-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 70vh;
+  /* height: 70vh; */
   padding: 3rem calc((100vw - 1000px)/2);
 
-  @media (min-width: 768px) {
-    padding-bottom: 90px;
+  @media (max-width: 770px) {
+    grid-template-columns: 1fr 0fr;
   }
 }
 
@@ -91,7 +92,7 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   color: #fff;
   padding: 0rem 2rem;
 }
@@ -111,6 +112,12 @@ nav a {
   font-size: 1.2rem;
   line-height: 1.5;
   font-weight: 200;
+
+  @media (max-width: 768px) {
+    font-size: 0.8rem;
+  line-height: 1;
+  /* font-weight: 20; */
+  }
 }
 
 
@@ -128,11 +135,13 @@ nav a {
 }
 
 
+
 .project-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
   padding: 10px;
+  background-color: #000;
 }
 
 .project-a {
@@ -141,6 +150,7 @@ nav a {
   padding: 20px 0;
   border-color: #fff;
   overflow: hidden;
+
 }
 
 .project-img {
@@ -163,10 +173,10 @@ nav a {
   gap: 0.5rem;
 
 
-  @media (min-width: 768px) {
+  /* @media (max-width: 768px) {
     font-size: 0.875rem;
     line-height: 1.25rem;
-  }
+  } */
 
 }
 
@@ -205,16 +215,13 @@ nav a {
   background-color: #334756;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
   nav {
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 10px;
   }
 
-  .hook-container {
-    grid-template-columns: 1fr;
-  }
 
   .column-left h1 {
     margin-bottom: 0;
@@ -223,19 +230,13 @@ nav a {
 
   .column-right {
     visibility: hidden;
+
   }
 
   .project-container {
     grid-template-columns: auto;
   }
 
- /* nav a {
-    align-content: end;
-    padding: 1px;
-    background-color: #3b576c;
-    border-radius: 15px;
-  }
-*/
   .logo {
     padding: 5px;
   }
