@@ -1,16 +1,53 @@
 :root {
-  --primary-color: #a5d6a7;
-  --secondary-color: #506971;
-  --background-color: #85a788;
-  --surface-color: #ffffff;
-  --error-color: #b00020;
-  --on-primary-color: #ffffff;
-  --on-secondary-color: #000000;
-  --on-background-color: #a7d1ab;
-  --on-surface-color: #000000;
-  --on-error-color: #ffffff;
-  --text-color: #2e7d32;
-  --border-radius: 12px;
+  --md-sys-color-primary: rgb(160 212 155);
+  --md-sys-color-surface-tint: rgb(160 212 155);
+  --md-sys-color-on-primary: rgb(7 57 16);
+  --md-sys-color-primary-container: rgb(34 80 37);
+  --md-sys-color-on-primary-container: rgb(187 240 181);
+  --md-sys-color-secondary: rgb(185 204 180);
+  --md-sys-color-on-secondary: rgb(37 52 35);
+  --md-sys-color-secondary-container: rgb(59 75 57);
+  --md-sys-color-on-secondary-container: rgb(213 232 207);
+  --md-sys-color-tertiary: rgb(161 206 213);
+  --md-sys-color-on-tertiary: rgb(0 54 60);
+  --md-sys-color-tertiary-container: rgb(31 77 83);
+  --md-sys-color-on-tertiary-container: rgb(188 235 241);
+  --md-sys-color-error: rgb(255 180 171);
+  --md-sys-color-on-error: rgb(105 0 5);
+  --md-sys-color-error-container: rgb(147 0 10);
+  --md-sys-color-on-error-container: rgb(255 218 214);
+  --md-sys-color-background: rgb(35, 41, 42);
+  --md-sys-color-on-background: rgb(224 228 219);
+  --md-sys-color-surface: rgb(16 20 15);
+  --md-sys-color-on-surface: rgb(224 228 219);
+  --md-sys-color-surface-variant: rgb(66 73 64);
+  --md-sys-color-on-surface-variant: rgb(194 201 189);
+  --md-sys-color-outline: rgb(140 147 136);
+  --md-sys-color-outline-variant: rgb(66 73 64);
+  --md-sys-color-shadow: rgb(0 0 0);
+  --md-sys-color-scrim: rgb(0 0 0);
+  --md-sys-color-inverse-surface: rgb(224 228 219);
+  --md-sys-color-inverse-on-surface: rgb(45 50 44);
+  --md-sys-color-inverse-primary: rgb(58 105 59);
+  --md-sys-color-primary-fixed: rgb(187 240 181);
+  --md-sys-color-on-primary-fixed: rgb(0 33 5);
+  --md-sys-color-primary-fixed-dim: rgb(160 212 155);
+  --md-sys-color-on-primary-fixed-variant: rgb(34 80 37);
+  --md-sys-color-secondary-fixed: rgb(213 232 207);
+  --md-sys-color-on-secondary-fixed: rgb(16 31 16);
+  --md-sys-color-secondary-fixed-dim: rgb(185 204 180);
+  --md-sys-color-on-secondary-fixed-variant: rgb(59 75 57);
+  --md-sys-color-tertiary-fixed: rgb(188 235 241);
+  --md-sys-color-on-tertiary-fixed: rgb(0 31 35);
+  --md-sys-color-tertiary-fixed-dim: rgb(161 206 213);
+  --md-sys-color-on-tertiary-fixed-variant: rgb(31 77 83);
+  --md-sys-color-surface-dim: rgb(16 20 15);
+  --md-sys-color-surface-bright: rgb(54 58 52);
+  --md-sys-color-surface-container-lowest: rgb(11 15 10);
+  --md-sys-color-surface-container-low: rgb(24 29 23);
+  --md-sys-color-surface-container: rgb(28 33 27);
+  --md-sys-color-surface-container-high: rgb(39 43 37);
+  --md-sys-color-surface-container-highest: rgb(50 54 48);
 }
 
 * {
@@ -19,7 +56,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   text-decoration-color: var(--text-color);
-  background-color: var(--background-color);
+  background-color: var(--md-sys-color-background);
 }
 
 .button {
@@ -27,20 +64,17 @@
   padding: 10px 24px;
   border: none;
   border-radius: var(--border-radius);
-  background-color: var(--primary-color);
-  color: var(--on-primary-color);
-  font-size: 16px;
+  background-color: var(--md-sys-color-inverse-primary);
+  font-size: 32px;
   text-align: center;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  border-radius: 12px;
+}
+.cv {
+  background-color: transparent;
 }
 .button:hover {
-  background-color: darken(var(--primary-color), 10%);
-}
-
-.button.secondary {
-  background-color: var(--secondary-color);
-  color: var(--on-secondary-color);
+  background-color: var(--md-sys-color-inverse-primary);
 }
 
 .button.outline {
@@ -52,6 +86,51 @@
 .button.outline:hover {
   background-color: var(--primary-color);
   color: var(--on-primary-color);
+}
+
+.chip {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  block-size: 2rem;
+  min-inline-size: 2rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  background-color: var(--md-sys-color-secondary-container);
+  border: 0.0625rem solid var(--outline);
+  color: var(--md-sys-color-on-secondary-container);
+  padding: 0 1rem;
+  margin: 0 0.5rem;
+  text-transform: none;
+  border-radius: 0.5rem;
+  user-select: none;
+  gap: 1rem;
+  line-height: normal;
+}
+.chip.fill:hover {
+  box-shadow: var(--elevate1);
+}
+.chip.medium {
+  block-size: 2.5rem;
+  min-inline-size: 2.5rem;
+}
+.chip.large {
+  block-size: 3rem;
+  min-inline-size: 3rem;
+}
+.chip.fill {
+  background-color: var(--secondary-container) !important;
+  border: none;
+}
+.chip.round.small {
+  border-radius: 1rem;
+}
+.chip.round {
+  border-radius: 1.25rem;
+}
+.chip.round.large {
+  border-radius: 1.5rem;
 }
 
 .card {
@@ -81,18 +160,22 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: var(--background-color);
-  color: var(--on-background-color);
+  background-color: var(--md-sys-color-background);
+  color: var(--md-sys-color-background);
   margin: 0;
   padding: 0;
 }
 
 h1 {
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0, 5);
+  color: var(--md-sys-color-on-background);
   font-size: 32px;
   font-weight: 700;
 }
 
 h2 {
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0, 5);
+  color: var(--md-sys-color-on-background);
   font-size: 28px;
   font-weight: 600;
 }
@@ -102,6 +185,8 @@ h2 {
 }
 
 h3 {
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0, 5);
+  color: var(--md-sys-color-on-background);
   font-size: 24px;
   font-weight: 500;
 }
@@ -128,31 +213,17 @@ span {
 }
 
 .shadow-small {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 3px var(--md-sys-color-shadow);
 }
 
 .shadow-medium {
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 3px 6px var(--md-sys-color-shadow);
 }
 
 .shadow-large {
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 10px 20px var(--md-sys-color-shadow);
 }
 
-.input-field {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: var(--border-radius);
-  font-size: 14px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-
-.input-field:focus {
-  border-color: var(--primary-color);
-  outline: none;
-}
 .wrapper {
   box-sizing: content-box;
   text-align: center;
@@ -160,7 +231,7 @@ span {
 
 .me::before {
   content: "WRITER";
-  color: var(--secondary-color);
+  color: var(--md-sys-color-on-background);
   font-size: larger;
   animation: animate 5s infinite;
 }
@@ -186,7 +257,7 @@ span {
 @media (max-width: 768px) {
   .me::before {
     content: "Man of many talents";
-    color: var(--secondary-color);
+    color: var(--md-sys-color-on-background);
     font-size: medium;
     animation: none;
     /* animation: animate 5s infinite; */
@@ -195,7 +266,7 @@ span {
 
 nav {
   height: 80px;
-  background: #506971;
+  background: var(--md-sys-color-tertiary-container);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -208,11 +279,11 @@ nav {
   font-weight: bold;
   font-style: italic;
   padding: 0 2rem;
-  background-color: #00000000;
+  background-color: transparent;
 }
 
 .nav-list {
-  background-color: #00000000;
+  background-color: transparent;
   justify-content: flex-end;
 }
 @media (max-width: 770px) {
@@ -236,7 +307,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: var(--md-sys-color-on-background);
   padding: 0rem 2rem;
 }
 
@@ -245,7 +316,7 @@ nav {
   margin-bottom: 1rem;
   font-size: 3rem;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0, 5);
-  color: aliceblue;
+  color: var(--md-sys-color-on-background);
   border-radius: 10px;
   text-align: center;
 }
@@ -281,15 +352,16 @@ nav {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
   padding: 10px;
-  background-color: var(--on-background-color);
+  background-color: var(--md-sys-color-secondary-container);
 }
 
 .project-a {
   border-style: double;
   border-radius: 0.375rem;
   padding: 20px 0;
-  border-color: #fff;
+  border-color: var(--md-sys-color-on-secondary-container);
   overflow: hidden;
+  color: var(--md-sys-color-tertiary-container);
 }
 
 .project-img {
@@ -298,7 +370,7 @@ nav {
   width: 100%;
   height: 9rem;
   cursor: pointer;
-  background-color: #00000000;
+  background-color: transparent;
 }
 
 .project-p {
@@ -322,14 +394,14 @@ nav {
   font-size: 2rem;
   line-height: 1.75rem;
   font-weight: 600;
-  color: #fff;
+  color: var(--md-sys-color-on-background);
 }
 .description {
   margin-bottom: 0.5rem;
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 600;
-  color: #fff;
+  color: var(--md-sys-color-on-background);
 }
 
 .project-span {
@@ -340,8 +412,8 @@ nav {
   font-weight: 600;
   border-radius: 0.375rem;
   border-width: 2px;
-  color: aliceblue;
-  background-color: var(--on-background-color);
+  color: var(--md-sys-color-on-background);
+  background-color: var(--md-sys-color-background);
 }
 
 @media (max-width: 770px) {
