@@ -6,7 +6,7 @@
 
 As a full-stack developer, my goal is to create usable and attractive software, one syntax at a time. The majority of my projects are created entirely by me, from conception to packaging and deployment.
 
-- 🔭 I’m currently working on growing my portfolio as I finish school
+- 🔭 I’m currently working on growing my portfolio
 - 🌱 I’m currently learning Android Native Development
 - 📫 How to reach me: mammba001@gmail.com
 - ⚡ Fun fact: I'm a part-time Video Editor and Graphic Designer
@@ -29,8 +29,4 @@ As a full-stack developer, my goal is to create usable and attractive software, 
 
 **Click here to visit my portfolio** 👉🏾 [MulamuMammba](https://mulamumammba.github.io/MulamuMammba/) 👈🏾
 
----
 
-### 📈 My GitHub Statistics
-
-![Mulamu's GitHub stats](https://github-readme-stats.vercel.app/api?username=mulamumammba&show_icons=true&theme=gotham)
