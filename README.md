@@ -27,6 +27,6 @@ As a full-stack developer, my goal is to create usable and attractive software, 
 
 ---
 
-**Click here to visit my portfolio** 👉🏾 [MulamuMammba](https://mulamumammba.github.io/MulamuMammba/) 👈🏾
+**Click here to visit my portfolio** 👉🏾 [MulamuMammba](https://mulamumammba.github.io/Portfolio/) 👈🏾
 
 
