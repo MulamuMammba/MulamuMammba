@@ -1,6 +1,6 @@
-![](https://komarev.com/ghpvc/?username=MulamuMammba)
 
-# Hey There 👋, I'm **Mulamuleli Mammba** 🚀
+# **Mulamuleli Mammba** 
+![](https://komarev.com/ghpvc/?username=MulamuMammba)
 
 **🌌 Digital Craftsman (Developer | Graphic Designer | Video Editor)**
 
