@@ -1,23 +1,25 @@
-<p align="center">
-  <img src="assets/header.svg" alt="Mulamuleli Mammba. I build quiet apps for phones and watches." width="100%">
-</p>
+# Mulamuleli Mammba
 
-<img src="assets/label-now.svg" alt="Building now" width="100%">
+**Developer. I build quiet apps for phones and watches.**
 
-<a href="https://github.com/MulamuMammba/Timely">
-  <img src="assets/in-due-time.svg" alt="In Due Time. A planner that keeps your day unhurried." width="100%">
-</a>
+Slow by design. One moment per screen. No feeds, no streaks.
 
-<img src="assets/label-earlier.svg" alt="Earlier work" width="100%">
+---
 
-<a href="https://github.com/S-arpCoders/BankApp">
-  <img src="assets/bankapp.svg" alt="BankApp. A full-stack banking app built as a team." width="100%">
-</a>
+### How I build
 
-<img src="assets/label-how.svg" alt="How I build" width="100%">
+- Kotlin and Jetpack Compose first
+- Java, with signed Android builds made without Gradle
+- Phone, tablet, DeX and Galaxy Watch
+- Spring, Docker and Git on the back end
+- Dark first, calm motion, one clear action
 
-<img src="assets/stack.svg" alt="Kotlin and Jetpack Compose first. Signed Android builds without Gradle." width="100%">
+### Earlier work
 
-<p align="center">
-  <img src="assets/footer.svg" alt="Slow down." width="100%">
-</p>
+**[BankApp](https://github.com/S-arpCoders/BankApp)**
+A full-stack banking app built as a team.
+Spring, Thymeleaf, SQLite and Docker.
+
+---
+
+<sub>*Slow down.*</sub>
