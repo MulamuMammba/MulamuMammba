@@ -1,80 +1,46 @@
-# Mulamuleli Mammba
+<p align="center">
+  <img src="assets/header.svg" alt="Mulamuleli Mammba. I build quiet apps for phones and watches." width="100%">
+</p>
 
-[![Full-Stack Developer](https://img.shields.io/badge/Full--Stack%20Developer-Skills-blue?style=flat-square)](https://mulamumammba.github.io/Portfolio/)
-[![Graphic Designer](https://img.shields.io/badge/Graphic%20Designer-Creative-orange?style=flat-square)](https://mulamumammba.github.io/Portfolio/)
-[![Video Editor](https://img.shields.io/badge/Video%20Editor-Creative-green?style=flat-square)](https://mulamumammba.github.io/Portfolio/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-View_My_Work-purple?style=flat-square&logo=github)](https://mulamumammba.github.io/Portfolio/)
+### About
 
-<!---
-![](https://komarev.com/ghpvc/?username=MulamuMammba)
--->
+I'm a developer in Johannesburg.
+I build apps that slow you down instead of speeding you up.
+One moment per screen. No feeds, no streaks.
+Your data stays on your device.
 
-## About Me
+I also design and edit video, so I draw every screen before I build it.
 
-I'm a Full-Stack Developer with a Creative Soul: I don't just build software; I craft digital experiences. My passion lies in architecting elegant, efficient solutions from the ground up, where code meets creativity. Beyond the lines of code, I'm also a Graphic Designer and Video Editor, bringing a unique blend of technical and artistic skills to every project. I believe in the power of combining logic and imagination to create something truly extraordinary.
+### Building now
 
-## Skills
+<a href="https://github.com/MulamuMammba/Timely">
+  <img src="assets/in-due-time.svg" alt="In Due Time. A planner that keeps your day unhurried." width="100%">
+</a>
 
-<details>
-<summary><b> 💻 Languages </b></summary>
-<br>
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=java" width="50" height="50" alt="Java" title="Java"/>
-  <img src="https://skillicons.dev/icons?i=kotlin" width="50" height="50" alt="Kotlin" title="Kotlin"/>
-  <img src="https://skillicons.dev/icons?i=cs" width="50" height="50" alt="C#" title="C#"/>
-  <img src="https://skillicons.dev/icons?i=javascript" width="50" height="50" alt="JavaScript" title="JavaScript"/>
-  <img src="https://skillicons.dev/icons?i=html" width="50" height="50" alt="HTML" title="HTML"/>
-  <img src="https://skillicons.dev/icons?i=css" width="50" height="50" alt="CSS" title="CSS"/>
-</div>
-</details>
+<img src="assets/watchmans-notebook.svg" alt="Watchman's Notebook. A private library for your poems." width="100%">
 
-<details>
-<summary><b> 🛠️ Frameworks & Tools </b></summary>
-<br>
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=react" width="50" height="50" alt="React" title="React"/>
-  <img src="https://skillicons.dev/icons?i=nodejs" width="50" height="50" alt="Node.js" title="Node.js"/>
-  <img src="https://skillicons.dev/icons?i=spring" width="50" height="50" alt="Spring Framework" title="Spring Framework"/>
-  <img src="https://skillicons.dev/icons?i=thymeleaf" width="50" height="50" alt="Thymeleaf" title="Thymeleaf"/>
-  <img src="https://skillicons.dev/icons?i=express" width="50" height="50" alt="Express.js" title="Express.js"/>
-  <img src="https://skillicons.dev/icons?i=sqlite" width="50" height="50" alt="SQLite" title="SQLite"/>
-  <img src="https://skillicons.dev/icons?i=docker" width="50" height="50" alt="Docker" title="Docker"/>
-</div>
-</details>
+<img src="assets/nc-attendance.svg" alt="NC Attendance. Attendance for the New Christian course." width="100%">
 
-<details>
-<summary><b> ✨ Creative Skills </b></summary>
-<br>
-Video Editing, Graphic Design
-</details>
+<sub>Watchman's Notebook and NC Attendance are private for now.</sub>
 
-## Projects
+### Earlier work
 
-### Team Project: BankApp ([S-arpCoders](https://github.com/S-arpCoders))
+<a href="https://github.com/S-arpCoders/BankApp">
+  <img src="assets/bankapp.svg" alt="BankApp. A full-stack banking app built as a team." width="100%">
+</a>
 
-A robust full-stack application built with:
+### How I build
 
-*   Frontend: Thymeleaf
-*   Backend: Spring Framework
-*   Database: SQLite
-*   Tools: Docker
+<p>
+  <img src="https://skillicons.dev/icons?i=kotlin,java,spring,html,css,docker,git&theme=dark" alt="Kotlin, Java, Spring, HTML, CSS, Docker, Git">
+</p>
 
-[View Project](https://github.com/S-arpCoders/BankApp)
+- Kotlin and Jetpack Compose first. A web version when iPhone users need it.
+- Signed Android builds without Gradle, using aapt2, javac and dx.
+- Phone, tablet, DeX and Galaxy Watch.
+- Every app follows one design standard: dark first, calm motion, one clear action.
 
-## Let's Connect
+### Reach me
 
-[![Email](https://img.shields.io/badge/Email-mammba001%40gmail.com-red?style=flat-square&logo=gmail)](mailto:mammba001@gmail.com)
-
-## 🛠️ Tech Stack
-
-<div align="center">
-  <img align="center" alt="Java" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" style="padding:10px;">
-  <img align="center" alt="Spring" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" style="padding:10px;">
-  <img align="center" alt="React" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="padding:10px;">
-  <img align="center" alt="Node.js" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" style="padding:10px;">
-  <img align="center" alt="Docker" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" style="padding:10px;">
-  <img align="center" alt="Thymeleaf" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/thymeleaf/thymeleaf-original.svg" style="padding:10px;">
-  <img align="center" alt="Express.js" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" style="padding:10px;">
-  <img align="center" alt="Kotlin" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" style="padding:10px;">
-  <img align="center" alt="MySQL" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" style="padding:10px;">
-</div>
+[![Email](https://img.shields.io/badge/EMAIL-mammba001%40gmail.com-17131f?style=flat-square&labelColor=0d0b14&logo=gmail&logoColor=b7a3f0)](mailto:mammba001@gmail.com)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-view-17131f?style=flat-square&labelColor=0d0b14&logo=github&logoColor=b7a3f0)](https://mulamumammba.github.io/Portfolio/)
